@@ -38,7 +38,9 @@ Pré-requisitos
 Antes de começar, verifique se você possui os seguintes requisitos:
 
 ✅ Terraform 
+
 ✅ AzureCLI
+
 ✅ Conta na Azure
 
 Passo 1️⃣: Clonar o repositório
