@@ -19,15 +19,18 @@ Requisitos de conclusão:
     Terraform: O script Terraform deve criar uma máquina virtual na Azure.
     Instalação do Docker: Utilize um script de inicialização para instalar o Docker na VM.
     Container com WordPress: Após a instalação do Docker, suba um container com o WordPress.
-    Automatização Completa: Todo o processo deve ser automatizado com Terraform. Não deve ser necessário conectar-se         manualmente à máquina para instalação e configuração.
+    Automatização Completa: Todo o processo deve ser automatizado com Terraform. 
+    Não deve ser necessário conectar-se manualmente à máquina para instalação e configuração.
 
 Pontos Extras
 
-    Containers Separados: Configure containers separados para o WordPress e o banco de dados, garantindo a retenção de       dados durante um upgrade do WordPress.
+    Containers Separados: Configure containers separados para o WordPress e o banco de dados, garantindo 
+    a retenção de dados durante um upgrade do WordPress.
     Comentários no Código: Adicione comentários explicativos no código Terraform para indicar o que cada bloco faz.
     Arquivo docker-compose.yml: Forneça um arquivo docker-compose.yml para facilitar a criação dos containers.
     Senha do Banco de Dados: Configure a senha do usuário root do banco de dados para GAud4mZby8F3SD6P.
-    Dockerfile para o Servidor Web: Forneça um arquivo Dockerfile para o servidor web, mesmo que use uma imagem pública      com as dependências instaladas.
+    Dockerfile para o Servidor Web: Forneça um arquivo Dockerfile para o servidor web, mesmo que use uma 
+    imagem pública com as dependências instaladas.
 
 Este repositório contém um projeto desenvolvido utilizando Terraform, Docker e React. A seguir, você encontrará um guia passo a passo interativo para provisionar o projeto.
 Pré-requisitos
