@@ -57,7 +57,7 @@ az login
 ```
 Vai ser aberto uma aba de login no portal da azure. Faça o login para continuar o passo-a-passo.
 
-3️⃣: Inicialização do terraform.
+Passo 3️⃣: Inicialização do terraform.
 
 Após a autenticação execute o comando:
 ```
@@ -75,7 +75,7 @@ Esse é o comando responsável por aplicar realmente o plano de execução gerad
 
 Após o passo de inicialização feito, aguarde o provisionamento e a inicialização dos containers.
 
-4️⃣: Conectar-se a virtual machine utilizando o IP público.
+Passo 4️⃣: Conectar-se a virtual machine utilizando o IP público.
 
 Para encontrar o seu IP público utilize o comando:
 ```
@@ -87,7 +87,7 @@ ssh admdevops@<ip_publico>
 ```
 ao pedir a password deverá ser utilizado: "Senh4!"
 
-5️⃣: Destruição 
+Passo 5️⃣: Destruição 
 
 Após realizar os testes caso deseja destruir os arquivos provisionados utilize o comando:
 ```
