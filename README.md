@@ -85,11 +85,22 @@ az vm list-ip-addresses --resource-group rg-desafio-devops --name vm-desafio-dev
 ```
 Após ter encontrado o seu IP público vamos fazer a conexão na VirtualMachine através do comando:
 ```
-ssh admdevops@<ip_publico>
+ssh admdevops@(seu-ip-publico
+)
 ```
 ao pedir a password deverá ser utilizado: "Senh4!"
 
-Passo 5️⃣: Destruição 
+Passo 5️⃣: Verificar Containers e Wordpress
+Para verificar se os containers foram inicializados digite:
+```
+sudo docker ps
+```
+poderá acessar também o wordpress pelo localhost vá até o navegador e digite:
+```
+http://(seu-ip-publico)
+```
+
+Passo 6️⃣: Destruição 
 
 Após realizar os testes caso deseja destruir os arquivos provisionados utilize o comando:
 ```
