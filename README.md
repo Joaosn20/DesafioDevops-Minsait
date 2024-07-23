@@ -32,7 +32,7 @@ Pontos Extras
     Dockerfile para o Servidor Web: Forneça um arquivo Dockerfile para o servidor web, mesmo que use uma 
     imagem pública com as dependências instaladas.
 
-Este repositório contém um projeto desenvolvido utilizando Terraform, Docker e React. A seguir, você encontrará um guia passo a passo interativo para provisionar o projeto.
+Este repositório contém um projeto desenvolvido utilizando Terraform e Docker. A seguir, você encontrará um guia passo a passo interativo para provisionar o projeto.
 Pré-requisitos
 
 Antes de começar, verifique se você possui os seguintes requisitos:
