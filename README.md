@@ -53,7 +53,7 @@ Isso criará uma cópia local do repositório em seu ambiente.
 
 Passo 2️⃣: Se autenticar utilizando o AzureCLI
 
-Navegue até o diretório raiz do projeto e execute o comando:
+Navegue até o diretório raiz do projeto e execute o comando no terminal:
 ```
 az login
 ```
@@ -85,8 +85,8 @@ az vm list-ip-addresses --resource-group rg-desafio-devops --name vm-desafio-dev
 ```
 Após ter encontrado o seu IP público vamos fazer a conexão na VirtualMachine através do comando:
 ```
-ssh admdevops@(seu-ip-publico
-)
+ssh admdevops@seu-ip-publico
+
 ```
 ao pedir a password deverá ser utilizado: "Senh4!"
 
@@ -97,7 +97,7 @@ sudo docker ps
 ```
 poderá acessar também o wordpress pelo localhost vá até o navegador e digite:
 ```
-http://(seu-ip-publico)
+http://seu-ip-publico
 ```
 
 Passo 6️⃣: Destruição 
